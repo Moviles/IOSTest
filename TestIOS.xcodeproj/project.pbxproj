@@ -22,6 +22,7 @@
 		79FC577F18BD436800EC666D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FC575E18BD436700EC666D /* UIKit.framework */; };
 		79FC578718BD436800EC666D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FC578518BD436800EC666D /* InfoPlist.strings */; };
 		79FC578918BD436800EC666D /* TestIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC578818BD436800EC666D /* TestIOSTests.m */; };
+		79FC579418BD7C8700EC666D /* NuevaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC579318BD7C8700EC666D /* NuevaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		79FC578418BD436800EC666D /* TestIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestIOSTests-Info.plist"; sourceTree = "<group>"; };
 		79FC578618BD436800EC666D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79FC578818BD436800EC666D /* TestIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIOSTests.m; sourceTree = "<group>"; };
+		79FC579218BD7C8700EC666D /* NuevaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaViewController.h; sourceTree = "<group>"; };
+		79FC579318BD7C8700EC666D /* NuevaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				79FC576C18BD436700EC666D /* Main_iPhone.storyboard */,
 				79FC576F18BD436700EC666D /* Main_iPad.storyboard */,
 				79FC577218BD436700EC666D /* ViewController.h */,
+				79FC579218BD7C8700EC666D /* NuevaViewController.h */,
+				79FC579318BD7C8700EC666D /* NuevaViewController.m */,
 				79FC577318BD436700EC666D /* ViewController.m */,
 				79FC577518BD436700EC666D /* Images.xcassets */,
 				79FC576118BD436700EC666D /* Supporting Files */,
@@ -255,6 +260,7 @@
 			files = (
 				79FC577418BD436700EC666D /* ViewController.m in Sources */,
 				79FC576B18BD436700EC666D /* AppDelegate.m in Sources */,
+				79FC579418BD7C8700EC666D /* NuevaViewController.m in Sources */,
 				79FC576718BD436700EC666D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +480,7 @@
 				79FC578E18BD436800EC666D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79FC578F18BD436800EC666D /* Build configuration list for PBXNativeTarget "TestIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				79FC579118BD436800EC666D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
