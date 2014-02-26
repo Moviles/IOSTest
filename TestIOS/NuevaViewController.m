@@ -29,6 +29,8 @@
 	// Do any additional setup after loading the view.
     
     //una modificacion que acabo de hacer
+    //d fsdf sdf sdfs df sfs df
+    //modifico el archivo Nueva------
 }
 
 - (void)didReceiveMemoryWarning
