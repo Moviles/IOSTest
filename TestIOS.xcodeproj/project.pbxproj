@@ -23,6 +23,7 @@
 		79FC578718BD436800EC666D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FC578518BD436800EC666D /* InfoPlist.strings */; };
 		79FC578918BD436800EC666D /* TestIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC578818BD436800EC666D /* TestIOSTests.m */; };
 		79FC579418BD7C8700EC666D /* NuevaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC579318BD7C8700EC666D /* NuevaViewController.m */; };
+		79FC579718BD7E7800EC666D /* ViewControllerPrueba.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FC579618BD7E7800EC666D /* ViewControllerPrueba.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		79FC578818BD436800EC666D /* TestIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIOSTests.m; sourceTree = "<group>"; };
 		79FC579218BD7C8700EC666D /* NuevaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevaViewController.h; sourceTree = "<group>"; };
 		79FC579318BD7C8700EC666D /* NuevaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevaViewController.m; sourceTree = "<group>"; };
+		79FC579518BD7E7800EC666D /* ViewControllerPrueba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPrueba.h; sourceTree = "<group>"; };
+		79FC579618BD7E7800EC666D /* ViewControllerPrueba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPrueba.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				79FC576C18BD436700EC666D /* Main_iPhone.storyboard */,
 				79FC576F18BD436700EC666D /* Main_iPad.storyboard */,
 				79FC577218BD436700EC666D /* ViewController.h */,
+				79FC579518BD7E7800EC666D /* ViewControllerPrueba.h */,
+				79FC579618BD7E7800EC666D /* ViewControllerPrueba.m */,
 				79FC579218BD7C8700EC666D /* NuevaViewController.h */,
 				79FC579318BD7C8700EC666D /* NuevaViewController.m */,
 				79FC577318BD436700EC666D /* ViewController.m */,
@@ -262,6 +267,7 @@
 				79FC576B18BD436700EC666D /* AppDelegate.m in Sources */,
 				79FC579418BD7C8700EC666D /* NuevaViewController.m in Sources */,
 				79FC576718BD436700EC666D /* main.m in Sources */,
+				79FC579718BD7E7800EC666D /* ViewControllerPrueba.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
