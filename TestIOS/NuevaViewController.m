@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    //una modificacion que acabo de hacer
 }
 
 - (void)didReceiveMemoryWarning
